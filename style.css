@@ -1,0 +1,360 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Main Header */
+.header{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(images/banner.jpg);
+	background-size: cover;
+	background-position: center;background-attachment: fixed;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.header h2{
+	color: #fff;
+	float: left;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.header i{
+	font-size: 2.5rem;
+
+}
+
+.login-btn{
+	width: 100px; 
+	padding: 8px 0;
+	outline: none !important;
+	border:2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: #fff;
+	float: right;
+}
+
+@media all and (max-width: 400px){
+	.login-btn{
+		float: left;
+		margin-left: 20%;
+		margin-top: 15px;
+	}
+}
+
+.login-btn:hover{
+	background: #a00fdd;
+}
+
+.header h1{
+	padding-top: 260px;
+	padding-bottom: 0;
+	font-size: 2.5rem;
+	font-family: 'Lobster', cursive;
+}
+
+.header p{
+	margin: 18px 0;
+	font-size: 1.8rem;
+	font-family: 'Lobster', cursive;
+}
+
+.input-group{
+	width: 90%!important;
+	max-width: 500px;
+	border-radius: 30px;
+	background: #fff;
+	margin: auto;
+	padding: 2px;
+}
+
+.form-control{
+	border: 0 !important;
+	border-radius: 30px !important;
+	box-shadow: none;
+}
+
+.input-group-text{
+	width: 100px;
+	background: linear-gradient(#00ff7e,#1f3d90);
+	border: 0 !important;
+	color: #fff !important;
+	padding: 0 25px !important;
+	border-radius: 30px !important;
+	box-shadow: none;
+}
+
+.form-group label{
+	float: left;
+}
+
+.modal-header{
+	align-items: center;
+}
+
+.form-control{
+	border: 1px solid #000;
+}
+
+.modal-header h4{
+	left: 50%;
+	color: #000;
+}
+
+.modal-content{
+}
+.modal-body .btn{
+	background: transparent;
+	outline: none !important;
+	border:2px solid #650b8c;
+}
+
+.modal-body .btn:hover{
+	border:2px solid  #d6a4eb;
+	background: #650b8c ;
+	color: #fff;
+}
+
+/*----Featured Destination-----*/
+
+.features{
+	padding: 100px 0;
+}
+
+.feature-box{
+	border-radius: 5%;
+}
+
+.feature-box{
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	margin-bottom: 30px;
+}
+
+h1{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.feature-img img{
+	width: 100%;
+	padding-bottom: 2px;
+}
+
+.price{
+	text-align: center;
+	padding-top: 3%;
+	width: 50px;
+	height: 50px;
+	background: #ff5722;
+	color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	position: absolute;
+	left: 10px;
+	bottom: 5px;
+}
+
+.feature-img{
+	position: relative;
+}
+
+.rating{
+	padding:3px;
+	float: right;
+	background: #fff;
+	bottom: -1px;
+	right: 0;
+	position: absolute;
+}
+
+.feature-content{
+	margin: 0;
+	padding:10px;
+	text-align: justify;
+}
+
+.feature-content h4{
+	font-weight: 600;
+	font-family: 'IM Fell English', serif;
+}
+
+.feature-content p{
+	font-size: 1.025rem;
+	font-family: 'IM Fell English', serif;
+}
+
+.rating .fa{
+	font-size: 1.5rem;
+	color: #ff5722;
+}
+
+.feature-content .fa{
+	color: #ff5722;
+	margin-right: 5px;
+}
+.knw-more{
+	margin-top: 10px;
+	float: right;
+	width: 100px;
+	border:2px solid #a00fdd ;
+	border-radius: 50px;
+	background: transparent;
+	color: #000;
+	padding-bottom: 2px;
+}
+
+.knw-more:hover{
+	color: #fff;
+	background: #f0f;
+}
+
+
+/*----Gallery-----*/
+
+.gallery{
+	padding: 30px 0;
+	background: #efefef;
+}
+
+.jlr{
+    		font-size: 0;
+    		margin-bottom: 30px;
+    	}
+
+    	.jlr .jlr_item{
+    		font-size: 1rem;
+    		display: inline-block;
+    		box-sizing: border-box;
+    		padding: 6px;
+    	}
+
+    	.jlr img.jlr_img{
+    		height: 200px;
+    		opacity: 0;
+    		border-radius: 10px;
+    	}
+
+    	  .jlr img.jlr_loaded {
+         -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+        opacity: 1;
+    }
+
+/*-------banner---------*/
+
+.banner{
+	height: 80vh;
+	background-image: url(images/maldives.jpg);
+	background-position:center;
+	background-size: cover; 
+	padding-top: 16%;	
+}
+
+.banner-highlights{
+	padding:70px 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: #fff;
+}
+
+.booking-btn{
+	width: 120px;
+	padding: 8px 0;
+	outline: none !important;
+	border:2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: #fff;
+	margin-top: 2%;
+}
+
+/*---User feedback-----*/
+
+.user-feedback{
+	padding: 50px 0;
+	padding-bottom: 100px;
+}
+
+.user-review{
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
+	padding-bottom: 50px;
+}
+
+.user-review p{
+	padding: 50px 10px 10px 10px; 
+}
+
+
+.user-feedback img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: relative;
+	margin: -30px 0 10px 40%; 
+}
+
+.user-review p::before{
+	content: '\201d';
+	display: block;
+	position: absolute;
+	font-size: 5rem;
+	color: #a00fdd;
+	left: 44%;
+	top: -20px;
+}
+
+.footer{
+	padding: 50px 20px 10px;
+	background: linear-gradient(#2d557d,#9610fb);
+	color: #fff;
+}
+
+.footer-logo{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 1.5rem;
+}
+
+.footer p{
+	text-align: justify;
+}
+
+.footer h4{
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.footer a{
+	display: list-item;
+	margin-bottom: 5%;
+	text-align: justify;
+	font-size: 1.1rem;
+	list-style: none;
+	color: #fff;
+}
+
+.footer .row .fa{
+	padding-right: 5%;
+	font-size: 1.1rem
+}
+
+.footer hr{
+	background: #efefef;
+	margin-top: 10px;
+}
+
+.fa-copyright{
+	margin: 0 5px;
+}
+
+.footer .copyright{
+	text-align: center;
+
+}
